@@ -1,6 +1,24 @@
 # BoxSDK
 
 
+## Overview
+
+Sample application of **Box SDK for Node.js**.
+
+This application demonstrate **automatic file translation** for text files under Box folder. This application use **IBM Watson Language Translator API** for language translation.
+
+
+## Pre-requisites
+
+- Box account.
+
+- Box application settings under Box Developer.
+
+- IBM Cloud account.
+
+- IBM Watson Language Translator instance under IBM Cloud.
+
+
 ## How to setup
 
 - Edit **settings.js** with following information:
@@ -24,6 +42,21 @@
   - exports.dst_lang : Target Folder name in box, which is going to be created and contains translated text files in this language.
 
     - This name folder can be existed before executing, but this folder need to be blank. This name folder will be created automatically when not existed.
+
+
+## Reference
+
+- Box Developer console
+
+  - https://app.box.com/developers/console
+
+- Box SDK for Node.js
+
+  - https://github.com/box/box-node-sdk
+
+- npm - IBM Watson
+
+  - https://www.npmjs.com/package/ibm-watson
 
 
 ## Licensing
