@@ -29,6 +29,8 @@ This application demonstrate **automatic file translation** for text files under
 
   - exports.DeveloperToken : Developer Token for box Developers
 
+    - This Developer Token value would expire in one hour after creation.
+
   - exports.lt_apikey : API Key for Watson Language Translator instance in IBM Cloud
 
   - exports.lt_url : Endpoint URL for Watson Language Translator instance in IBM Cloud(Optional. Default value is the ones of Dallas: 'https://gateway.watsonplatform.net/language-translator/api/')
