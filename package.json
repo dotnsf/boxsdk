@@ -1,0 +1,15 @@
+{
+    "name": "boxsdk",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "box-node-sdk": "^1.30.0",
+        "ibm-watson": "^5.3.1"
+    },
+    "repository": {},
+    "engines": {
+        "node": "8.x"
+    }
+}
