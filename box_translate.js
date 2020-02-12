@@ -1,4 +1,4 @@
-//. upload.js
+//. box_translate.js
 //. https://github.com/box/box-node-sdk
 var fs = require( 'fs' );
 var ltv3 = require( 'ibm-watson/language-translator/v3' );
